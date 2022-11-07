@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="main.css" />
+  <title>Bookshelf Home</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <section class="search">
+        <input id="searchBar" placeholder="Search" />
+        <button class="searchBtn">Search</button>
+      </section>
+
+      <section class="add">
+        <input id="newTitleBar" placeholder="Add New Title" />
+        <input id="newAuthorBar" placeholder="Add New Author" />
+        <input id="newLanguageBar" placeholder="Add New Language" />
+        <input id="newSubjectBar" placeholder="Add New Subject(s)" />
+        <button id="addBookBtn">Add Book</button>
+      </section>
+
+      <section class="navbar">
+        <a class="active" href="index.html">HOME</a>
+        <a href="about.html">ABOUT</a>
+        <a href="contact.html">CONTACT</a>
+      </section>
+    </nav>
+  </header>
+
+  <main id="app">
+    <ul class="books"></ul>
+  </main>
+
+  <script src="js/book-data.js"></script>
+  <script src="js/book.js"></script>
+  <script src="js/bookshelf.js"></script>
+  <script src="index.js"></script>
+
+</body>
+
+</html>

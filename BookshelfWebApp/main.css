@@ -1,0 +1,25 @@
+nav {
+  display: flex;
+  gap: 2rem;
+}
+
+
+header {
+  position: fixed;
+  background: white;
+  left: 0;
+  right: 0;
+  padding: .5em;
+  background-color: grey;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+main {
+  padding-top: 2rem;
+  
+}
+
+.navbar {
+  font-weight: bold;
+}
